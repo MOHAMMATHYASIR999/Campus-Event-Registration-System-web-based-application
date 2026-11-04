@@ -68,8 +68,8 @@ export const PaymentSelector: React.FC<PaymentSelectorProps> = ({
   };
 
   const handleDirectUpiIntent = (app: string) => {
-    const upiId = 'marellavishnu2007@oksbi';
-    const payee = 'Campus Event Desk';
+    const upiId = '9500677895@ptyes';
+    const payee = 'MOHAMMATH YASIR A';
     const note = `Event-${eventName.substring(0, 16).trim()}`;
     const uri = `upi://pay?pa=${upiId}&pn=${encodeURIComponent(
       payee
