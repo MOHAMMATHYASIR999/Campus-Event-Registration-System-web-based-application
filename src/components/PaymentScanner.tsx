@@ -17,8 +17,8 @@ export const PaymentScanner: React.FC<PaymentScannerProps> = ({
   const [qrUrl, setQrUrl] = useState<string>('');
 
   // Target UPI ID for the payment destination
-  const upiId = 'marellavishnu2007@oksbi';
-  const payeeName = 'Campus Event Desk';
+  const upiId = '9500677895@ptyes';
+  const payeeName = 'MOHAMMATH YASIR A';
   const formattedAmount = '1';
   const note = `Pass-${eventName.substring(0, 16).trim().replace(/\s+/g, '-')}`;
 
