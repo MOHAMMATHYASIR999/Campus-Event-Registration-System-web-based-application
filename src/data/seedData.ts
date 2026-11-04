@@ -20,15 +20,15 @@ export const INITIAL_STUDENT: StudentUser = {
 };
 
 export const ADMIN_CREDENTIALS = {
-  email: 'marellavishnu2007@gmail.com',
-  password: 'Vishnu*2007',
+  email: 'mohammathyasir@gmail.com',
+  password: 'Yash*2150',
   name: 'Vishnu Marella',
   role: 'Chief Event Administrator & Coordinator',
   department: 'Event Desk (Near Central Auditorium)',
 };
 
 export const INITIAL_ADMIN: AdminUser = {
-  id: 'adm_vishnu',
+  id: 'adm_Yash',
   name: ADMIN_CREDENTIALS.name,
   email: ADMIN_CREDENTIALS.email,
   role: ADMIN_CREDENTIALS.role,
